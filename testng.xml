@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="testng.listeners.Listener"></listener>
+	</listeners>
+	<!-- <test name="Test diary">
+		<packages>
+			<package name="appium.sampleapp.cucumber_testng" />
+			<package name="appium.testobject" />
+		</packages>
+		<!-- <classes> <class name="appium.testobject.App"></class> </classes> -->
+	<!-- </test> -->
+	<!-- <test name="Test"> <classes> <class name="appium.sampleapp.cucumber_testng.RpnCalculatorStepdefs" 
+		/> <class name="appium.sampleapp.cucumber_testng.Entry" /> </classes> </test> -->
+	<test name="newTest">
+		<classes>
+			<class name="testng.listeners.TestListener"></class>
+		</classes>
+	</test>
+</suite>
